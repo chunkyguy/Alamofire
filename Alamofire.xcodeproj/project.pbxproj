@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1FF9C3421ADAF44E003EC129 /* AlmParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF9C3411ADAF44E003EC129 /* AlmParameterEncoding.swift */; };
+		1FF9C3431ADAF44E003EC129 /* AlmParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF9C3411ADAF44E003EC129 /* AlmParameterEncoding.swift */; };
+		1FF9C3471ADAF487003EC129 /* AlmMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF9C3461ADAF487003EC129 /* AlmMethod.swift */; };
+		1FF9C3481ADAF487003EC129 /* AlmMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF9C3461ADAF487003EC129 /* AlmMethod.swift */; };
+		1FF9C34C1ADAF4BA003EC129 /* AlmURLStringConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF9C34B1ADAF4BA003EC129 /* AlmURLStringConvertible.swift */; };
+		1FF9C34D1ADAF4BA003EC129 /* AlmURLStringConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF9C34B1ADAF4BA003EC129 /* AlmURLStringConvertible.swift */; };
+		1FF9C3511ADAF4E7003EC129 /* AlmURLRequestConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF9C3501ADAF4E7003EC129 /* AlmURLRequestConvertible.swift */; };
+		1FF9C3521ADAF4E7003EC129 /* AlmURLRequestConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF9C3501ADAF4E7003EC129 /* AlmURLRequestConvertible.swift */; };
+		1FF9C3561ADAF523003EC129 /* AlmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF9C3551ADAF523003EC129 /* AlmManager.swift */; };
+		1FF9C3571ADAF523003EC129 /* AlmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF9C3551ADAF523003EC129 /* AlmManager.swift */; };
+		1FF9C35B1ADAF557003EC129 /* AlmRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF9C35A1ADAF557003EC129 /* AlmRequest.swift */; };
+		1FF9C35C1ADAF557003EC129 /* AlmRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF9C35A1ADAF557003EC129 /* AlmRequest.swift */; };
 		4DD67C241A5C58FB00ED2280 /* Alamofire.h in Headers */ = {isa = PBXBuildFile; fileRef = F8111E3819A95C8B0040E7D1 /* Alamofire.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4DD67C251A5C590000ED2280 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = F897FF4019AA800700AB5182 /* Alamofire.swift */; };
 		F8111E3919A95C8B0040E7D1 /* Alamofire.h in Headers */ = {isa = PBXBuildFile; fileRef = F8111E3819A95C8B0040E7D1 /* Alamofire.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -48,6 +60,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1FF9C3411ADAF44E003EC129 /* AlmParameterEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlmParameterEncoding.swift; sourceTree = "<group>"; };
+		1FF9C3461ADAF487003EC129 /* AlmMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlmMethod.swift; sourceTree = "<group>"; };
+		1FF9C34B1ADAF4BA003EC129 /* AlmURLStringConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlmURLStringConvertible.swift; sourceTree = "<group>"; };
+		1FF9C3501ADAF4E7003EC129 /* AlmURLRequestConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlmURLRequestConvertible.swift; sourceTree = "<group>"; };
+		1FF9C3551ADAF523003EC129 /* AlmManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlmManager.swift; sourceTree = "<group>"; };
+		1FF9C35A1ADAF557003EC129 /* AlmRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlmRequest.swift; sourceTree = "<group>"; };
 		4DD67C0B1A5C55C900ED2280 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8111E3319A95C8B0040E7D1 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8111E3719A95C8B0040E7D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -124,6 +142,12 @@
 			children = (
 				F8111E3819A95C8B0040E7D1 /* Alamofire.h */,
 				F897FF4019AA800700AB5182 /* Alamofire.swift */,
+				1FF9C35A1ADAF557003EC129 /* AlmRequest.swift */,
+				1FF9C3551ADAF523003EC129 /* AlmManager.swift */,
+				1FF9C3501ADAF4E7003EC129 /* AlmURLRequestConvertible.swift */,
+				1FF9C34B1ADAF4BA003EC129 /* AlmURLStringConvertible.swift */,
+				1FF9C3461ADAF487003EC129 /* AlmMethod.swift */,
+				1FF9C3411ADAF44E003EC129 /* AlmParameterEncoding.swift */,
 				F8111E3619A95C8B0040E7D1 /* Supporting Files */,
 			);
 			path = Source;
@@ -335,6 +359,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DD67C251A5C590000ED2280 /* Alamofire.swift in Sources */,
+				1FF9C35C1ADAF557003EC129 /* AlmRequest.swift in Sources */,
+				1FF9C3521ADAF4E7003EC129 /* AlmURLRequestConvertible.swift in Sources */,
+				1FF9C3571ADAF523003EC129 /* AlmManager.swift in Sources */,
+				1FF9C34D1ADAF4BA003EC129 /* AlmURLStringConvertible.swift in Sources */,
+				1FF9C3481ADAF487003EC129 /* AlmMethod.swift in Sources */,
+				1FF9C3431ADAF44E003EC129 /* AlmParameterEncoding.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +373,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F897FF4119AA800700AB5182 /* Alamofire.swift in Sources */,
+				1FF9C35B1ADAF557003EC129 /* AlmRequest.swift in Sources */,
+				1FF9C3511ADAF4E7003EC129 /* AlmURLRequestConvertible.swift in Sources */,
+				1FF9C3561ADAF523003EC129 /* AlmManager.swift in Sources */,
+				1FF9C34C1ADAF4BA003EC129 /* AlmURLStringConvertible.swift in Sources */,
+				1FF9C3471ADAF487003EC129 /* AlmMethod.swift in Sources */,
+				1FF9C3421ADAF44E003EC129 /* AlmParameterEncoding.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
